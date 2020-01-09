@@ -1,5 +1,5 @@
 # NiceBannerView
-NiceBannerView from https://github.com/wenchaosong/Banner
+
 
 ## 注意事项
 
@@ -54,3 +54,5 @@ NiceBannerView from https://github.com/wenchaosong/Banner
     stopAutoPlay                停止轮播
     setOnBannerClickListener    监听点击事件
     setOnPageChangeListener     监听页面变化事件
+
+NiceBannerView Powered By https://github.com/wenchaosong/Banner
