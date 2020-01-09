@@ -25,6 +25,7 @@ public class CustomViewPagerActivity extends AppCompatActivity {
     Banner banner3;
     Banner banner4;
     LinearLayout indicator;
+
     private List<ImageView> indicatorImages = new ArrayList<>();
     private int mIndicatorSelectedResId = R.mipmap.indicator;
     private int mIndicatorUnselectedResId = R.mipmap.indicator2;

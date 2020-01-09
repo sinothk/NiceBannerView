@@ -22,6 +22,7 @@ import com.sinothk.banner.nice.demo.demo.BannerStyleActivity;
 import com.sinothk.banner.nice.demo.demo.CustomBannerActivity;
 import com.sinothk.banner.nice.demo.demo.CustomViewPagerActivity;
 import com.sinothk.banner.nice.demo.demo.IndicatorPositionActivity;
+import com.sinothk.banner.nice.demo.demo.SimpleFragmentActivity;
 import com.sinothk.banner.nice.demo.ui.CustomViewHolder;
 import com.sinothk.banner.nice.listener.OnBannerClickListener;
 
@@ -128,7 +129,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                 startActivity(new Intent(this, CustomViewPagerActivity.class));
                 break;
             case 7:
-//                startActivity(new Intent(this, SimpleFragmentActivity.class));
+                startActivity(new Intent(this, SimpleFragmentActivity.class));
                 break;
         }
     }
