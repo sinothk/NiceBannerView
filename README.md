@@ -55,4 +55,8 @@
     setOnBannerClickListener    监听点击事件
     setOnPageChangeListener     监听页面变化事件
 
+## 混淆
+    -keep class com.ms.banner.** {*;}
+
+
 NiceBannerView Powered By https://github.com/wenchaosong/Banner
