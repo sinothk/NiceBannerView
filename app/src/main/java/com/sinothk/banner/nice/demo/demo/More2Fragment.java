@@ -13,7 +13,6 @@ import com.sinothk.banner.nice.Banner;
 import com.sinothk.banner.nice.BannerConfig;
 import com.sinothk.banner.nice.Transformer;
 import com.sinothk.banner.nice.demo.CustomData;
-import com.sinothk.banner.nice.demo.LazyFragment;
 import com.sinothk.banner.nice.demo.R;
 import com.sinothk.banner.nice.demo.ui.CustomViewHolder2;
 

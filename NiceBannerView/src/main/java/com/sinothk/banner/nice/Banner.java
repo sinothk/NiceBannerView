@@ -104,7 +104,9 @@ public class Banner extends FrameLayout implements OnPageChangeListener {
     private void initView(Context context, AttributeSet attrs) {
         handleTypedArray(context, attrs);
         View view = LayoutInflater.from(context).inflate(R.layout.banner, this, true);
+
         bannerDefaultImage = view.findViewById(R.id.bannerDefaultImage);
+
         ArcShapeView arcShapeView = view.findViewById(R.id.bannerArcView);
         if (mArcHeight <= 0) {
             arcShapeView.setVisibility(GONE);
