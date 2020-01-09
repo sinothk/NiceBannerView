@@ -18,10 +18,6 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.List;
-
 import androidx.annotation.IntRange;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
@@ -30,8 +26,11 @@ import androidx.viewpager.widget.ViewPager.PageTransformer;
 
 import com.sinothk.banner.nice.holder.BannerViewHolder;
 import com.sinothk.banner.nice.listener.OnBannerClickListener;
-import com.sinothk.banner.nice.view.ArcShapeView;
 import com.sinothk.banner.nice.view.BannerViewPager;
+
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Banner extends FrameLayout implements OnPageChangeListener {
 
@@ -76,7 +75,7 @@ public class Banner extends FrameLayout implements OnPageChangeListener {
     private OnBannerClickListener listener;
     private int mPageLeftMargin;
     private int mPageRightMargin;
-    private int mArcHeight;
+//    private int mArcHeight;
     private int mArcStartColor, mArcEndColor;
     private int mArcDirection;
     private static final int NUM = 5000;
@@ -107,15 +106,16 @@ public class Banner extends FrameLayout implements OnPageChangeListener {
 
         bannerDefaultImage = view.findViewById(R.id.bannerDefaultImage);
 
-        ArcShapeView arcShapeView = view.findViewById(R.id.bannerArcView);
-        if (mArcHeight <= 0) {
-            arcShapeView.setVisibility(GONE);
-        } else {
-            arcShapeView.setVisibility(VISIBLE);
-            arcShapeView.setArcHeight(mArcHeight);
-            arcShapeView.setBackground(mArcStartColor, mArcEndColor);
-            arcShapeView.setDirection(mArcDirection);
-        }
+//        ArcShapeView arcShapeView = view.findViewById(R.id.bannerArcView);
+//        if (mArcHeight <= 0) {
+//            arcShapeView.setVisibility(GONE);
+//        } else {
+//            arcShapeView.setVisibility(VISIBLE);
+//            arcShapeView.setArcHeight(mArcHeight);
+//            arcShapeView.setBackground(mArcStartColor, mArcEndColor);
+//            arcShapeView.setDirection(mArcDirection);
+//        }
+
         viewPager = view.findViewById(R.id.bannerViewPager);
         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT,
                 LayoutParams.MATCH_PARENT);
@@ -158,7 +158,7 @@ public class Banner extends FrameLayout implements OnPageChangeListener {
         bannerBackgroundImage = typedArray.getResourceId(R.styleable.Banner_banner_default_image, R.drawable.no_banner);
         mPageLeftMargin = typedArray.getDimensionPixelSize(R.styleable.Banner_page_left_margin, BannerConfig.PAGE_MARGIN);
         mPageRightMargin = typedArray.getDimensionPixelSize(R.styleable.Banner_page_right_margin, BannerConfig.PAGE_MARGIN);
-        mArcHeight = typedArray.getDimensionPixelSize(R.styleable.Banner_arc_height, BannerConfig.ARC_HEIGHT);
+//        mArcHeight = typedArray.getDimensionPixelSize(R.styleable.Banner_arc_height, BannerConfig.ARC_HEIGHT);
         mArcStartColor = typedArray.getColor(R.styleable.Banner_arc_start_color, BannerConfig.ARC_BACKGROUND);
         mArcEndColor = typedArray.getColor(R.styleable.Banner_arc_end_color, BannerConfig.ARC_BACKGROUND);
         mArcDirection = typedArray.getInt(R.styleable.Banner_arc_direction, BannerConfig.ARC_DIRECTION);
