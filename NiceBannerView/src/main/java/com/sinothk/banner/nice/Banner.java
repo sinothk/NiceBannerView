@@ -18,11 +18,6 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.ms.banner.holder.BannerViewHolder;
-import com.ms.banner.listener.OnBannerClickListener;
-import com.ms.banner.view.ArcShapeView;
-import com.ms.banner.view.BannerViewPager;
-
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +27,11 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
 import androidx.viewpager.widget.ViewPager.PageTransformer;
+
+import com.sinothk.banner.nice.holder.BannerViewHolder;
+import com.sinothk.banner.nice.listener.OnBannerClickListener;
+import com.sinothk.banner.nice.view.ArcShapeView;
+import com.sinothk.banner.nice.view.BannerViewPager;
 
 public class Banner extends FrameLayout implements OnPageChangeListener {
 

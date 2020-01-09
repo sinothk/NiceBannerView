@@ -1,24 +1,24 @@
 package com.sinothk.banner.nice;
 
-import com.ms.banner.transformer.AccordionTransformer;
-import com.ms.banner.transformer.BackgroundToForegroundTransformer;
-import com.ms.banner.transformer.CubeInTransformer;
-import com.ms.banner.transformer.CubeOutTransformer;
-import com.ms.banner.transformer.DefaultTransformer;
-import com.ms.banner.transformer.DepthPageTransformer;
-import com.ms.banner.transformer.FlipHorizontalTransformer;
-import com.ms.banner.transformer.FlipVerticalTransformer;
-import com.ms.banner.transformer.ForegroundToBackgroundTransformer;
-import com.ms.banner.transformer.RotateDownTransformer;
-import com.ms.banner.transformer.RotateUpTransformer;
-import com.ms.banner.transformer.ScaleInOutTransformer;
-import com.ms.banner.transformer.ScaleRightTransformer;
-import com.ms.banner.transformer.ScaleTransformer;
-import com.ms.banner.transformer.StackTransformer;
-import com.ms.banner.transformer.TabletTransformer;
-import com.ms.banner.transformer.ZoomInTransformer;
-import com.ms.banner.transformer.ZoomOutSlideTransformer;
-import com.ms.banner.transformer.ZoomOutTranformer;
+import com.sinothk.banner.nice.transformer.AccordionTransformer;
+import com.sinothk.banner.nice.transformer.BackgroundToForegroundTransformer;
+import com.sinothk.banner.nice.transformer.CubeInTransformer;
+import com.sinothk.banner.nice.transformer.CubeOutTransformer;
+import com.sinothk.banner.nice.transformer.DefaultTransformer;
+import com.sinothk.banner.nice.transformer.DepthPageTransformer;
+import com.sinothk.banner.nice.transformer.FlipHorizontalTransformer;
+import com.sinothk.banner.nice.transformer.FlipVerticalTransformer;
+import com.sinothk.banner.nice.transformer.ForegroundToBackgroundTransformer;
+import com.sinothk.banner.nice.transformer.RotateDownTransformer;
+import com.sinothk.banner.nice.transformer.RotateUpTransformer;
+import com.sinothk.banner.nice.transformer.ScaleInOutTransformer;
+import com.sinothk.banner.nice.transformer.ScaleRightTransformer;
+import com.sinothk.banner.nice.transformer.ScaleTransformer;
+import com.sinothk.banner.nice.transformer.StackTransformer;
+import com.sinothk.banner.nice.transformer.TabletTransformer;
+import com.sinothk.banner.nice.transformer.ZoomInTransformer;
+import com.sinothk.banner.nice.transformer.ZoomOutSlideTransformer;
+import com.sinothk.banner.nice.transformer.ZoomOutTranformer;
 
 import androidx.viewpager.widget.ViewPager.PageTransformer;
 
