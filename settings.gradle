@@ -1,0 +1,2 @@
+include ':app', ':NiceBannerView'
+rootProject.name='NiceBannerViewLib'
