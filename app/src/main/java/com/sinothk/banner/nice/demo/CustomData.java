@@ -9,7 +9,6 @@ package com.sinothk.banner.nice.demo;
  * 可以 --
  */
 public class CustomData {
-
     private String url;
     private String name;
     private boolean isMovie;
